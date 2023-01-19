@@ -1,0 +1,12 @@
+.container-principal {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0 26px 0;
+  border-top: 1px solid #DEE2E6;
+}
+
+.texto-navbar {
+  text-decoration: none;
+  color: #212529;
+  font-size: 1.9rem;
+}
