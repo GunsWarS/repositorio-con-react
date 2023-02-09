@@ -25,7 +25,7 @@ h3 {
   font-family: 'Playfair Display', serif;
 }
 
-.texto-nuestros-productos {
+.text-products {
   font-size: 40px;
   text-align: center;
   padding: 5px 8px 30px 8px;
@@ -62,8 +62,7 @@ h3 {
 /* ---------------------------------------------------------------------------------- */
 
 /* REESCRIBIR LOS COLORES CON EL ! PARA PODERLOS UTILIZAR */
-.text-primary,
-.nombre-sitio {
+.text-primary {
   color: var(--bs-blue) !important;
 }
 
@@ -86,13 +85,13 @@ h3 {
 }
 
 /* CREE LA CLASE categoria PARA PODERLE HACER CAMBIOS Y ANIMACIONES A LAS IMAGENES */
-.categoria img {
+.category img {
   transition-property: transform;
   transition-duration: 300ms;
   /*SEGUNDOS*/
 }
 
-.categoria img:hover {
+.category img:hover {
   transform: scale(1.2);
 }
 

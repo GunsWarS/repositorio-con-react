@@ -1,8 +1,8 @@
-
-
-function Navbar({ nombre }) {
+function Navbar({ name }) {
   return (
-    <a className='texto-navbar' href='#!'>{nombre}</a>
+    <a className='navigation-bar-text'
+      href='#!'>
+      {name}</a>
   )
 }
 export default Navbar;

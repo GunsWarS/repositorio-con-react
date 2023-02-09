@@ -1,6 +1,6 @@
 import imgprincipal from '../imagenes/imgprincipal.jpg'
 
-function Imagenprincipal() {
+function MainImage() {
   return (
     <div className='hero'>
       <img className='img-fluid'
@@ -9,6 +9,6 @@ function Imagenprincipal() {
     </div>
   )
 };
-export default Imagenprincipal;
+export default MainImage;
 
 

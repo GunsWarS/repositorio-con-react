@@ -3,12 +3,12 @@ import '../hojas-de-estilo/Header.css';
 function Header() {
   return (
     <>
-      <header className='contenedor-titulo'>
-        <h1 className='title-principal'>
+      <header className='title-container'>
+        <h1 className='header-title'>
           Tienda
-          <span className='texto-secundario'> Muebles</span>
+          <span className='secondary-text'> Muebles</span>
         </h1>
-        
+
       </header>
     </>
   )

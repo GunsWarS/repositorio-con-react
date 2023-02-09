@@ -1,11 +1,11 @@
-.texto-contenedor {
+.text-container {
   display: flex;
   justify-content: space-between;
 }
 
-.categorias,
-.sobre-nosotros,
-.soporte {
+.categories,
+.about-us,
+.medium {
   display: flex;
   justify-content: space-between;
   font-size: 25px;
@@ -14,7 +14,7 @@
   margin: 0 130px 0 130px;
 }
 
-.container-footer {
+.footer-container {
   font-size: 16px;
   text-align: center;
   padding: 0 8px 0 8px;
